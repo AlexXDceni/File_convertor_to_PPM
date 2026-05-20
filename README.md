@@ -1,7 +1,7 @@
 # Image to PPM Converter
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C++-17-blue" alt="C++">
+  <img src="https://img.shields.io/badge/C++-20-blue" alt="C++">
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-green" alt="Platform">
   <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
 </p>
