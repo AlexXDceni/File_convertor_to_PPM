@@ -9,7 +9,7 @@
 
 
 #define STB_IMAGE_IMPLEMENTATION
-#include "sources/stb_image.h"
+#include "include/stb_image.h"
 
 #ifdef _WIN32
     #include <direct.h>
@@ -308,20 +308,4 @@ bool convertImage(const Arguments& args) {
     }
 
     return success;
-}
-
-int main(int argc, char* argv[]) {
-    Arguments args;
-
-    if (!parseArguments(argc, argv, args)) {
-        return 1;
-    }
-
-    ensureOutputPath(args);
-
-    if (!convertImage(args)) {
-        return 1;
-    }
-
-    return 0;
 }
